@@ -1,6 +1,6 @@
 galaxy_info:
   author: Douglas Atique
-  description: 
+  description: An Ansible role to get Ansible started with bare machines. 
   license: MIT
   min_ansible_version: 2.5
   platforms:
