@@ -1,0 +1,10 @@
+---
+# tasks file for ansible-bootstrap
+
+- name: Bootstrap Ansible on target machine
+  become: true
+  raw: (apt-get update -y && apt-get install -y python-minimal)
+
+- name: Gather facts
+  setup:
+
