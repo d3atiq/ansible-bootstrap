@@ -1,7 +1,7 @@
 ansible-bootstrap
 =========
 
-A role to install Ansible pre-requisites in the target machine.
+A role to install Ansible pre-requisites in the target machine. This amounts to installing python-minimal on the target machine, which will enable it as an Ansible target. Use this role if your target machine doesn't contain a Python installation usable by Ansible.
 
 Requirements
 ------------
@@ -30,9 +30,9 @@ Example Playbook
 License
 -------
 
-BSD
+MIT
 
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Under construction...
